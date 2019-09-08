@@ -8,6 +8,7 @@ interface Props extends ViewProps {
   onChange: (checked: boolean) => void;
   title: string;
   size?: number;
+  fillIcon?: boolean;
   checkedIconColor?: string;
   uncheckIconColor?: string;
   checkedTextColor?: string;
@@ -20,7 +21,7 @@ export const UICheckbox: FunctionComponent<Props> = (props) => {
   const {
     checked, onChange, style,
     title, titleStyle, checkedTextColor, uncheckTextColor,
-    iconStyle, size, checkedIconColor, uncheckIconColor,
+    iconStyle, size, checkedIconColor, uncheckIconColor, fillIcon,
     ...rest
   } = props;
 
@@ -28,7 +29,7 @@ export const UICheckbox: FunctionComponent<Props> = (props) => {
     <TouchableWithoutFeedback onPress={() => onChange(!checked)}>
       <View style={[styles.container, style]} {...rest}>
         <Icon
-          name={checked ? 'checked' : 'uncheck'}
+          name={checked ? (fillIcon ? 'checked-fill' : 'checked') : 'uncheck'}
           color={checked ? checkedIconColor : uncheckIconColor}
           size={size}
           style={[styles.icon, iconStyle]}
@@ -47,6 +48,7 @@ export const UICheckbox: FunctionComponent<Props> = (props) => {
 
 UICheckbox.defaultProps = {
   size: 14,
+  fillIcon: false,
 };
 
 interface Styles {
