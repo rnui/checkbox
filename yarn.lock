@@ -809,10 +809,10 @@
     shell-quote "1.6.1"
     ws "^1.1.0"
 
-"@rnui/text@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@rnui/text/-/text-1.0.0.tgz#92799b0598beae39c842952da51df1cece42a5b9"
-  integrity sha512-QFUo+gC7sLc7dkYsPTN24yDmq7FNGuCLYUVer78vKGsUkr/8kLSwfHg5vaGd0eu6uqQQDKC+ua8CRPwmDXXM8g==
+"@rnui/text@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/@rnui/text/-/text-1.0.1.tgz#04816e3bc6d51a2b77c8f68506fef9c94ad6b613"
+  integrity sha512-WDr4T84cWv1aJRKTPKQC6kgFWymfa3CSM/L4XnZjAuTsI5gEsYom5va/hV/I7PCR49Q6G7LAP4cgxyVzcH0bKA==
   dependencies:
     tslib "^1.10.0"
 

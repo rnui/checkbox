@@ -11,7 +11,7 @@
     "react-native-svg": "*"
   },
   "dependencies": {
-    "@rnui/text": "^1.0.0",
+    "@rnui/text": "^1.0.1",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
