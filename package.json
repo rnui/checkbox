@@ -1,6 +1,6 @@
 {
   "name": "@rnui/checkbox",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "git@github.com:rnui/checkbox.git",
   "author": "范文华 <531362022@qq.com>",
