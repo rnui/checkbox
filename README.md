@@ -1,7 +1,16 @@
 # Installation
 
 ```bash
-yarn add @rnui/checkbox
+yarn add react-native-svg @rnui/checkbox
+```
+
+# Link
+```bash
+# RN < 0.60
+react-native link react-native-svg
+
+# RN >= 0.60
+cd ios && pod install && cd ..
 ```
 
 ## Usage
