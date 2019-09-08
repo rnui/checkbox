@@ -1,0 +1,26 @@
+{
+  "name": "@rnui/checkbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rnui/checkbox.git",
+  "author": "范文华 <531362022@qq.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  },
+  "dependencies": {
+    "@rnui/text": "^1.0.0",
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-native": "^0.60.12",
+    "react": "^16.9.0",
+    "react-native": "^0.60.5",
+    "react-native-iconfont-cli": "^1.3.0",
+    "react-native-svg": "^9.8.5",
+    "typescript": "^3.6.2"
+  }
+}
