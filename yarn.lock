@@ -3736,10 +3736,10 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha512-tJBzzzIgnnRfEm046qRcURvwQnZVXmuCbscxUO5RWrGTXpon2d4c8mI0D8WE6ydVIm29JiLB6+RslkIvym9Rjw==
 
-react-native-iconfont-cli@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/react-native-iconfont-cli/-/react-native-iconfont-cli-1.3.0.tgz#b1053780b25aeca1360068239cd274f3a3ef139b"
-  integrity sha512-FB9za7ysp8g7SEUtdwM05SFx7NNb6ZPbFaVi03fVztuj5gu8di318Q6SP7yUbQIDztBeslwyYtAzPPJFNCvL8g==
+react-native-iconfont-cli@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/react-native-iconfont-cli/-/react-native-iconfont-cli-1.4.0.tgz#d88ff2c654c356e259d2c0fb7c3b8b717ec2a44c"
+  integrity sha512-OkqgP5NdKTT73ZpgD4HZZOrdAFI3VvzvD1WiXBnCKPO4J1nypZxW+EUM5VGVAtBFRLjew4aWEZd6d6uWYYLrig==
   dependencies:
     axios "^0.19.0"
     colors "^1.3.3"
