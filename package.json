@@ -19,7 +19,7 @@
     "@types/react-native": "^0.60.12",
     "react": "^16.9.0",
     "react-native": "^0.60.5",
-    "react-native-iconfont-cli": "^1.4.0",
+    "react-native-iconfont-cli": "^1.4.1",
     "react-native-svg": "^9.8.5",
     "typescript": "^3.6.2"
   }
