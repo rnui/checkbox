@@ -19,6 +19,6 @@ import React from 'react';
 import { UICheckbox } from '@rnui/checkbox';
 
 const App = () => {
-  return <UICheckbox>Hello World</UICheckbox>;
+  return <UICheckbox title="Hello World" checked={true} />;
 };
 ```
